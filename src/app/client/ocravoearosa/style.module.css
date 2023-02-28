@@ -1,0 +1,24 @@
+
+
+@media only screen and (max-width:480px){
+    #bdCravo{
+        background-image: url('/ocravoearosa/fundo.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        /* width: 100%; */
+        /* height: 100vh; */
+    
+    }
+
+}
+
+
+.Main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 8px;
+    
+}
