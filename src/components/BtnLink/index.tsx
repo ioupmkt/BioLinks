@@ -1,7 +1,7 @@
 import { Inter } from "@next/font/google";
 
 import style from "./style.module.css";
-import { BtnProps } from "src/@types";
+import { BtnProps } from "@/@types";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,7 +14,7 @@ export function BtnLink({ button, href, text }: BtnProps) {
       target="_blank"
       rel="noreferrer"
     >
-      {text}
+      <span>{text}</span>
     </a>
   );
 }

@@ -9,7 +9,7 @@ export default function Biolink() {
     <main className={styles.Main}>
       <Logo altura={116} largura={351} img="/ocravoearosa/Logo.png" />
 
-      <Title title="O cravo e a Rosa Fashion Kids" />
+      <Title title="O Cravo e a Rosa Fashion Kids" />
 
       <BtnLink text="Loja Virtual" href="https://www.lojaocravoearosa.com.br" />
       <BtnLink

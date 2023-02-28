@@ -1,32 +1,45 @@
-/* .Whatsapp {
-    
-    padding: 25px;
-    text-align: center;
-    color: #FFF;
-    background-color: #25D366;
-    border-radius: 8px;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    font-size: 1rem;
-    font-weight: 600;
-    justify-content: center;
-}
-
-.Whatsapp::before {
-    
-    padding: 0 10px;
-    content: url('/whatsapp.png');
-
-} */
 
 .BtnLink{
-    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
     background-color: #FFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 50px;
-    padding: 50px 114px;
+    /* padding:25px 70px; */
     text-decoration: none;
+    width: 312.26px;
+    height: 79.43px;
+    
+}
+.BtnLink>span{
+    color: #000;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 24px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    text-align: center;
+    line-height:41px;
+}
+
+
+@media only screen and (max-width:480px){
+    .BtnLink{
+        /* padding: 19px 57px; */
+        font-size: 16px;
+        width: 228px;
+        height: 58px;
+        
+    }   
+    .BtnLink>span{
+        color: #000;
+        font-weight: 600;
+        font-size: 16px;
+        text-transform: uppercase;
+        vertical-align: middle;
+        text-align: center;
+        line-height:30px;
+    }
 }

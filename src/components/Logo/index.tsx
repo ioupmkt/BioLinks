@@ -9,6 +9,7 @@ export default function Logo({ img, altura, largura }: LogoProps) {
       width={largura}
       height={altura}
       loading={"lazy"}
+      style={{ marginTop: "1rem" }}
     />
   );
 }
